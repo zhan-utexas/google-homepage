@@ -15,8 +15,11 @@ li {
 	background-color: #dddddd;
 }
 
-#logo {
+#blank {
 	clear: right;
+}
+
+#logo {
 	margin-top: 150px;
 	text-align: center;
 	border: solid 1px black;
