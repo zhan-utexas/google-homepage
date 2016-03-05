@@ -8,11 +8,36 @@ ul {
 	padding: 0;
 }
 
-li {
+.navbar ul li {
 	float: right;
 	display: inline-block;
 	padding: 5px;
-	background-color: #dddddd;
+	font-family: arial;
+	font-size: 12px;
+	color: #757575;
+}
+
+.user_image {
+    width: 30px;
+    height: 30px;
+}
+
+.apps {
+    background-image: url(https://raw.githubusercontent.com/n8sb/odin-project/master/google-homepage/style/../images/sprite.png);
+    background-position: -69px -854px;
+    float: right;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.notifications {
+	background-image: url(https://raw.githubusercontent.com/n8sb/odin-project/master/google-homepage/style/../images/sprite.png);
+    background-position: -1px -1441px;
+    float: right;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
 }
 
 #blank {
@@ -22,7 +47,6 @@ li {
 #logo {
 	margin-top: 150px;
 	text-align: center;
-	border: solid 1px black;
 }
 
 #form {
@@ -32,4 +56,47 @@ li {
 
 #buttons {
 	margin-top: 30px;
+}
+
+.field {
+	height: 30px;
+}
+
+.button {
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	border: 10px solid #f2f2f2;
+	background-color: #f2f2f2;
+	color: #757575;
+	padding: 0 16;
+}
+
+.bottom_navbar ul {
+	list-style-type: none;
+	position: fixed;
+	bottom: 0;
+	width: 99%;
+	padding: 5px;
+	overflow: hidden;
+	font-family: arial;
+	font-size: 12px;
+	background-color: #f2f2f2;
+}
+
+.bottom_left li {
+	float: left;
+	display: inline-block;
+	list-style-type: none;
+	color: #757575;
+	padding: 5px;
+}
+
+.bottom_right li {
+	float: right;
+	display: inline-block;
+	list-style-type: none;
+	color: #757575;
+	padding: 5px;
 }
